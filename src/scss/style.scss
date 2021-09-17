@@ -1,2 +1,163 @@
 $menucolor: #f7f9f9;
 $footercolor: #33393F;
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+ width: 100vw;
+ font-family: "Roboto Condensed";
+ font-size: 1rem;
+ color:black;
+}
+
+h2 {
+font-size: 2rem;
+letter-spacing: 2px;
+color: #000000;
+font-weight: 300;
+}
+
+ h1 {
+     font-size: 2.5rem;
+     font-weight: 300;
+     letter-spacing: 3px;
+
+ }
+
+ p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+ }
+
+ .info_title{
+     font-size: 1.5rem;
+letter-spacing: 2px;    
+font-weight: 300;
+ }
+
+// CONTAINER//
+
+.container {
+    background-color: $menucolor;
+
+}
+
+    header 
+ {  
+     display: flex; 
+     justify-content: space-between;
+     padding-left: 8rem; 
+     padding-right: 8rem; 
+     align-items: center;
+     img {
+         width: 10%;
+         height: 10%;
+     }
+     ul {
+     display: flex;
+     justify-content: space-between;
+     list-style-type: none;
+
+        li a {
+        text-decoration: none;
+        margin-left:10px;
+        color:rgba(0, 0, 0, 0.555)
+        
+        }
+     }
+
+
+ }
+
+ // MAIN //
+
+ .container_main {
+     padding-left: 8rem; 
+     padding-right: 8rem; 
+     width: 100vw;
+     main {
+         display: flex;
+        flex-direction: column;
+        .info {
+            display: flex;
+            justify-content: space-between;
+            width: 70vw;
+        }
+        .map {
+            iframe {
+                width:85vw;
+                height: 50rem; 
+             }
+
+        }
+     }
+     img {
+         width:85vw; 
+     }
+  
+     
+
+ }
+ // FOOTER//
+
+ .container_footer {
+    display: flex; 
+    justify-content: center;
+    margin-top: -3rem;
+    
+    background-color: $footercolor;
+    footer {
+        width: 30rem; 
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem;
+        
+        .social #hashtag {
+            text-align: center;
+            color:rgba(255, 255, 255, 0.589);
+            font-size: 1.25rem;
+            letter-spacing: 1px;
+            line-height: 28px;
+            font-weight: 700;
+        
+        }
+
+        .social p {
+        
+                color:rgba(255, 255, 255, 0.589);
+
+        }
+
+        .footer_menu {
+            display: flex;
+            list-style-type: none;
+            width: 30rem; 
+
+
+             ul {
+                display: flex;
+                justify-content: space-between;
+                list-style-type: none;
+                width: 30rem;
+            }
+
+            li a {
+                text-decoration: none;
+                margin-left:10px;
+                color:rgba(255, 255, 255, 0.589)
+
+
+                
+        
+             }
+        }
+
+
+
+    }
+}
