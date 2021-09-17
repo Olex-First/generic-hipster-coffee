@@ -1,0 +1,96 @@
+$menucolor: #f7f9f9;
+$footercolor: #33393F;
+
+.container_story {
+    padding-left: 8rem; 
+     padding-right: 8rem; 
+     width: 100vw;
+
+    .us {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       .first {
+           margin-right: 2rem;
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+       } 
+
+       .second {
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+
+       }
+      p {
+          text-align: center;
+      } 
+    .second_photo {
+        width: 11rem;
+
+    }
+        img {
+            width: 10rem;
+            border-radius: 40%;
+            
+            
+
+        }
+    }
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 4rem;
+}
+
+.form__input {
+  width: 48%;
+  color: #33393F;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ebebeb;
+  outline: none;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.form__input::placeholder {
+  color: #33393F;
+}
+
+.form__label {
+  width: 100%;
+  color: #ebebeb;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.form__textarea {
+  width: 100%;
+  border: solid #33393F;
+  border-radius: 0.5rem;
+  outline: none;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+.form__button {
+  width: 30%;
+  color: #ffffff;
+  background-color: #33393F;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+  padding: 0.75rem;
+  cursor: pointer;
+}

@@ -89,7 +89,8 @@ font-weight: 300;
         .map {
             iframe {
                 width:85vw;
-                height: 50rem; 
+                height: 50rem;
+                margin-bottom: -3rem; 
              }
 
         }
@@ -106,7 +107,6 @@ font-weight: 300;
  .container_footer {
     display: flex; 
     justify-content: center;
-    margin-top: -3rem;
     
     background-color: $footercolor;
     footer {
