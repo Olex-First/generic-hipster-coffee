@@ -72,6 +72,14 @@ font-weight: 300;
 
  }
 
+ @media screen and (max-width: 900px)
+ {
+     header{
+         display: flex;
+         flex-direction: column;
+     }
+ }
+
  // MAIN //
 
  .container_main {
@@ -98,7 +106,29 @@ font-weight: 300;
      img {
          width:85vw; 
      }
+
+
+
+@media screen and (max-width: 900px)   {
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
   
+    }
+
+    .map {
+            iframe {
+                width:30vw; 
+                height: 20rem;
+                margin-bottom: -3rem; 
+             }
+    }
+    .container_main {
+     padding-left: 1rem; 
+     padding-right: 1rem; 
+     width: 100vw;}
+    }
      
 
  }
